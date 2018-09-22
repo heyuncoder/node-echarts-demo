@@ -2,8 +2,8 @@
 使用echarts在node.js中生成雷达图
 
 ## 准备环境
-该工具主要依赖canvas来生成图片,所以需要预装一些环境
-参考:https://github.com/Automattic/node-canvas
+该工具主要依赖canvas来生成图片,所以需要预装一些环境,
+参考:https://github.com/Automattic/node-canvas <br/>
 OS | Command
 ----- | -----
 OS X | `brew install pkg-config cairo pango libpng jpeg giflib`
@@ -16,3 +16,7 @@ Windows | [Instructions on our wiki](https://github.com/Automattic/node-canvas/w
 ```sh
 yarn && yarn start
 ```
+
+生成效果如下:
+
+![image](test.jpg)
