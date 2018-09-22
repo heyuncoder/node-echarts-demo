@@ -13,7 +13,6 @@ Fedora | `sudo yum install cairo cairo-devel cairomm-devel libjpeg-turbo-devel p
 Solaris | `pkgin install cairo pango pkg-config xproto renderproto kbproto xextproto`
 Windows | [Instructions on our wiki](https://github.com/Automattic/node-canvas/wiki/Installation---Windows)
 
-
 ### 运行
 ```sh
 yarn && yarn start
