@@ -8,6 +8,7 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "canvas": "^1.6.12",
     "echarts": "^4.2.0-rc.1"
   }
 }
