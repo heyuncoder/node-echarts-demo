@@ -1,0 +1,13 @@
+{
+  "name": "nodeEchart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "heyun",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-echarts": "^1.1.2"
+  }
+}
