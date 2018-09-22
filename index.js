@@ -1,19 +1,19 @@
-var node_echarts = require('node-echarts');
+var node_echarts = require('./node-echarts');
 
 
 var option = {
   title: {
-    text: 97,
+    text: 98,
     x: 'center',
     y: 'center',
     textStyle: {
       color: '#fff',
       fontWeight: 'bolder',
-      fontSize: 24,
+      fontSize: 20,
     }
   },
   toolbox: {
-    show: false,
+    show: true,
     feature: {
       dataView: {
         readOnly: false
@@ -32,14 +32,14 @@ var option = {
       show: true,
       lineStyle: {
         color: '#d5a478',
-        opacity: 1
+        opacity: 0.58
       }
     },
     splitArea: {
       show: true,
       areaStyle: {
         color: '#DADADA',
-        opacity: 1
+        opacity: 0.7
       }
     },
     splitLine: {
@@ -71,15 +71,14 @@ var option = {
     type: 'radar',
     symbol: "none",
     lineStyle: {
-      opacity: 1
+      opacity: 0
     },
     areaStyle: {
-      // color: '#000000',//'#d5a478',
+      color: '#d5a478',
       opacity: 1
     },
     data: [{
-      value: [
-        90,
+      value: [90,
         90,
         90,
         90,
